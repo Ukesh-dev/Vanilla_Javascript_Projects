@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grocery Bud</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    
+    <section class="section-center">
+      <div class="cover">
+      </div>
+       <p class="alert"></p>
+       <div class="wrapper">
+       <span class="search"> <button class="btns"><i class="fas fa-search"></i></button><input type="text" class="search-btn" placeholder="Search Items"></span></div>
+        <h3>grocery list </h3>
+       <!-- form -->
+       <form class="grocery-form">
+        <div class="form-control">
+          <input type="text" id="grocery" placeholder="e.g. milk" />
+          <button type="submit" class="submit-btn">submit</button>
+        </div>
+      </form>
+      <!-- list -->
+      <div class="grocery-container">
+        <div class="grocery-list"></div>
+        <button class="clear-btn" style="background: red; color: white">clear items</button>
+      </div>
+    </section>
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
